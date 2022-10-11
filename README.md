@@ -5,7 +5,9 @@ These scripts automate the rendering procedure for a NFT collection made with Bl
 ## Dependencies
 In order to use this suite you must have Python3 (tested with Python3.9.6) installed. 
 On Ubuntu `sudo apt install python3`
-On MacOS `brew install python3`
+
+You will also have to install Blender
+On Ubuntu `sudo apt install blender`
 
 ## Setup
 Before generating the NFTs when must setup the environment. These are the steps needed:
