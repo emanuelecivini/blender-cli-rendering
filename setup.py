@@ -1,11 +1,10 @@
 # imports
 from os import system
 from sys import exit
+from config import *
 
 # configurations
-BLENDER_NAME='Blender'
-BLEND_FILE_PATH='example.blend'
-BLEND_MY_NFTS_REPO="https://github.com/torrinworx/Blend_My_NFTs.git"
+
 
 ###############################################################################
 # git installation

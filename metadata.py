@@ -1,18 +1,9 @@
 # Imports
-from lib2to3.pgen2 import token
+from distutils.command.config import config
 from os import listdir, mkdir
 from os.path import isdir
+from config import *
 import json
-
-# Constants
-
-BUILD_DIR='Blend_My_NFTs Output/Generated NFT Batches'
-TARGET_DIR='ElrondMetadata'
-COLLECTION_NAME='BlendMyNFT'
-IPFS_IMAGE_URL='https://gateway.ipfs.io/ipfs/Qimage.../'
-IPFS_ANIMATION_URL='https://gateway.ipfs.io/ipfs/Qanimation.../'
-IMAGE_FILE_FORMAT='png'
-ANIMATION_FILE_FORMAT='mp4'
 
 # Get all batches
 batches = []
